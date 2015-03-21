@@ -35,11 +35,15 @@ static const char font[] = "-*-procon-medium-r-*-*-10-*-*-*-*-*-iso10646-1" ","	
 
 **Dmenu**
 
-`dmenu -fn '-*-tamsyn-medium-r-normal-*-12-*-*-*-*-*-*-1','-*-procon-medium-r-*-*-10-*-*-*-*-*-iso10646-1'`
+```
+dmenu -fn '-*-tamsyn-medium-r-normal-*-12-*-*-*-*-*-*-1','-*-procon-medium-r-*-*-10-*-*-*-*-*-iso10646-1'
+```
 
 **Bar**
 
-`bar -p -f '-*-tamsyn-medium-r-normal-*-12-*-*-*-*-*-*-1','-*-procon-medium-r-*-*-10-*-*-*-*-*-iso10646-1'`
+```
+bar -p -f '-*-tamsyn-medium-r-normal-*-12-*-*-*-*-*-*-1','-*-procon-medium-r-*-*-10-*-*-*-*-*-iso10646-1'
+```
 
 ##TODO
 
@@ -52,10 +56,16 @@ static const char font[] = "-*-procon-medium-r-*-*-10-*-*-*-*-*-iso10646-1" ","	
 A Big Thanks to the following Authors for their work which made Procon possible:
 
 **Sm4tik** for sm4tik xbm icon pack
+
 **Stlarch** for stlarch font
+
 **Sunaku** for sm4tik font
+
 **Lokaltog** for symbols font
+
 **w0ng** for xbm icon font
+
 **Dave Gandy** for FontAwesome
+
 **Phallus** for Lemon and Uushi font
 
