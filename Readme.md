@@ -6,13 +6,13 @@ Procon is built on top of Stlarch, so your existing stlarch hexcodes will work j
 
 Procon is a **Work In Progress** Project that I work in my free time, so more glyphs will be added over the time.
 
-#What's the difference between Stlarch and Procon ?
+##What's the difference between Stlarch and Procon ?
 
 - Procon comes with **150 new glyphs**, selectively ported from other fonts and xbm icons.
 - Increased font spacing.
 - Properly centered glyphs.
 
-#How to get the glyph codes ?
+##How to get the glyph codes ?
 
 Install `xorg-xfd` and then open up a terminal or a program launcher and type:
 
@@ -20,7 +20,7 @@ Install `xorg-xfd` and then open up a terminal or a program launcher and type:
 
 There are three pages of glyphs according to xfd so please don't forget to **Click Next** in xfd for more glyphs.
 
-#Using Procon with other programs:
+##Using Procon with other programs:
 
 As long as a program allows for a fallback font Procon will work.
 
@@ -41,13 +41,13 @@ static const char font[] = "-*-procon-medium-r-*-*-10-*-*-*-*-*-iso10646-1" ","	
 
 `bar -p -f '-*-tamsyn-medium-r-normal-*-12-*-*-*-*-*-*-1','-*-procon-medium-r-*-*-10-*-*-*-*-*-iso10646-1'`
 
-#TODO
+##TODO
 
-- More Glyphs!
-- Adding glyphs of different sizes.
-- Improving glyph spacing and alignment.
+- [ ] More Glyphs!
+- [ ] Adding glyphs of different sizes.
+- [ ] Improving glyph spacing and alignment.
 
-#Credits
+##Credits
 
 A Big Thanks to the following Authors for their work which made Procon possible:
 
