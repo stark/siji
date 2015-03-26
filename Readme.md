@@ -8,7 +8,7 @@ Siji is a **Work In Progress**, so more glyphs will be added over the time.
 
 ##What's the difference between Stlarch and Siji ?
 
-- Sijicon comes with **215 new glyphs**, selectively ported from other fonts and xbm icons.
+- Siji comes with **215 new glyphs**, selectively ported from other fonts and xbm icons with personal additions.
 - Increased letter spacing.
 - Properly centered glyphs.
 
@@ -16,13 +16,13 @@ Siji is a **Work In Progress**, so more glyphs will be added over the time.
 
 Install `xorg-xfd` and then open up a terminal or a program launcher and type:
 
-`xfd -fn -*-siji-*-*-*-*-*-*-*-*-*-*-*-*`
+`xfd -fn -wuncon-siji-medium-r-normal--10-100-75-75-c-80-iso10646-1`
 
 There are three pages of glyphs in xfd if you launch it without providing any `rows` or `columns` argument so please don't forget to **Click Next** in xfd for viewing more glyphs.
 
-If you would like to view all the glyphs without having to click next then use the following command:
+If you would like to view all the glyphs at the same time without having to click next then use the following command:
 
-`xfd -rows 19 -columns 34 -fn -*-siji-*-*-*-*-*-*-*-*-*-*-*-*`
+`xfd -rows 19 -columns 34 -fn -wuncon-siji-medium-r-normal--10-100-75-75-c-80-iso10646-1`
 
 ##Using Siji with other programs:
 
@@ -33,20 +33,20 @@ Examples of using Siji with the some programs:
 **Dwm**
 
 ```
-static const char font[] = "-*-siji-medium-r-*-*-10-*-*-*-*-*-iso10646-1" ","	/* For Iconic Glyphs */
-                           "-*-tamsyn-medium-r-normal-*-12-*-*-*-*-*-*-1";      /* For Normal Text */
+static const char font[] = "-wuncon-siji-medium-r-normal--10-100-75-75-c-80-iso10646-1" ","  /* For Iconic Glyphs */
+                           "-*-tamsyn-medium-r-normal-*-12-*-*-*-*-*-*-1";                   /* For Normal Text */
 ```
 
 **Dmenu**
 
 ```
-dmenu -fn '-*-tamsyn-medium-r-normal-*-12-*-*-*-*-*-*-1','-*-siji-medium-r-*-*-10-*-*-*-*-*-iso10646-1'
+dmenu -fn '-*-tamsyn-medium-r-normal-*-12-*-*-*-*-*-*-1','-wuncon-siji-medium-r-normal--10-100-75-75-c-80-iso10646-1'
 ```
 
 **Bar**
 
 ```
-bar -p -f '-*-tamsyn-medium-r-normal-*-12-*-*-*-*-*-*-1','-*-siji-medium-r-*-*-10-*-*-*-*-*-iso10646-1'
+bar -p -f '-*-tamsyn-medium-r-normal-*-12-*-*-*-*-*-*-1','-wuncon-siji-medium-r-normal--10-100-75-75-c-80-iso10646-1'
 ```
 
 ##TODO
