@@ -1,14 +1,14 @@
-#Procon
+#Siji
 
-Procon is an iconic Bitmap font based on the excellent Stlarch font and inherits additional glyphs from Sm4tik xbm icon pack, Lokaltog Symbols font, xbm-icon font, Uushi font, FontAwesome with some personal additions.
+Siji is an iconic Bitmap font based on the excellent Stlarch font and inherits additional glyphs from Sm4tik xbm icon pack, Lokaltog Symbols font, xbm-icon font, Uushi font, FontAwesome, and Tewi font with some personal additions.
 
-Procon is built on top of Stlarch, so your existing stlarch hexcodes will **just work**.
+Siji is built on top of Stlarch, so your existing stlarch hexcodes will **just work**.
 
-Procon is a **Work In Progress**, so more glyphs will be added over the time.
+Siji is a **Work In Progress**, so more glyphs will be added over the time.
 
-##What's the difference between Stlarch and Procon ?
+##What's the difference between Stlarch and Siji ?
 
-- Procon comes with **215 new glyphs**, selectively ported from other fonts and xbm icons.
+- Sijicon comes with **215 new glyphs**, selectively ported from other fonts and xbm icons.
 - Increased letter spacing.
 - Properly centered glyphs.
 
@@ -16,37 +16,37 @@ Procon is a **Work In Progress**, so more glyphs will be added over the time.
 
 Install `xorg-xfd` and then open up a terminal or a program launcher and type:
 
-`xfd -fn -*-procon-*-*-*-*-*-*-*-*-*-*-*-*`
+`xfd -fn -*-siji-*-*-*-*-*-*-*-*-*-*-*-*`
 
 There are three pages of glyphs in xfd if you launch it without providing any `rows` or `columns` argument so please don't forget to **Click Next** in xfd for viewing more glyphs.
 
 If you would like to view all the glyphs without having to click next then use the following command:
 
-`xfd -rows 19 -columns 34 -fn -*-procon-*-*-*-*-*-*-*-*-*-*-*-1`
+`xfd -rows 19 -columns 34 -fn -*-siji-*-*-*-*-*-*-*-*-*-*-*-*`
 
-##Using Procon with other programs:
+##Using Siji with other programs:
 
-As long as a program allows to set a fallback font, Procon will work.
+As long as a program allows to set a fallback font, Siji will work.
 
-Examples of using Procon with the some prgrams:
+Examples of using Siji with the some programs:
 
 **Dwm**
 
 ```
-static const char font[] = "-*-procon-medium-r-*-*-10-*-*-*-*-*-iso10646-1" ","	/* For Iconic Glyphs */
-                           "-*-tamsyn-medium-r-normal-*-12-*-*-*-*-*-*-1";        /* For Normal Text */
+static const char font[] = "-*-siji-medium-r-*-*-10-*-*-*-*-*-iso10646-1" ","	/* For Iconic Glyphs */
+                           "-*-tamsyn-medium-r-normal-*-12-*-*-*-*-*-*-1";      /* For Normal Text */
 ```
 
 **Dmenu**
 
 ```
-dmenu -fn '-*-tamsyn-medium-r-normal-*-12-*-*-*-*-*-*-1','-*-procon-medium-r-*-*-10-*-*-*-*-*-iso10646-1'
+dmenu -fn '-*-tamsyn-medium-r-normal-*-12-*-*-*-*-*-*-1','-*-siji-medium-r-*-*-10-*-*-*-*-*-iso10646-1'
 ```
 
 **Bar**
 
 ```
-bar -p -f '-*-tamsyn-medium-r-normal-*-12-*-*-*-*-*-*-1','-*-procon-medium-r-*-*-10-*-*-*-*-*-iso10646-1'
+bar -p -f '-*-tamsyn-medium-r-normal-*-12-*-*-*-*-*-*-1','-*-siji-medium-r-*-*-10-*-*-*-*-*-iso10646-1'
 ```
 
 ##TODO
@@ -57,7 +57,7 @@ bar -p -f '-*-tamsyn-medium-r-normal-*-12-*-*-*-*-*-*-1','-*-procon-medium-r-*-*
 
 ##Credits
 
-A Big Thanks to the following Authors for their spectacular work which made Procon possible:
+A Big Thanks to the following Authors for their spectacular work which made Siji possible:
 
 **Sm4tik** for sm4tik xbm icon pack
 
