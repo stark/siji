@@ -6,6 +6,8 @@ Siji is built on top of Stlarch, so your existing stlarch hexcodes will **just w
 
 Siji is a **Work In Progress**, so more glyphs will be added over the time.
 
+![Siji](preview.png "Preview of Siji")
+
 ##What's the difference between Stlarch and Siji ?
 
 - Siji comes with **215 new glyphs**, selectively ported from other fonts and xbm icons with personal additions.
