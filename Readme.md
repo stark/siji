@@ -45,10 +45,10 @@ static const char font[] = "-wuncon-siji-medium-r-normal--10-100-75-75-c-80-iso1
 dmenu -fn '-*-tamsyn-medium-r-normal-*-12-*-*-*-*-*-*-1','-wuncon-siji-medium-r-normal--10-100-75-75-c-80-iso10646-1'
 ```
 
-**Bar**
+**Lemonbar**
 
 ```
-bar -p -f '-*-tamsyn-medium-r-normal-*-12-*-*-*-*-*-*-1','-wuncon-siji-medium-r-normal--10-100-75-75-c-80-iso10646-1'
+lemonbar -p -f '-*-tamsyn-medium-r-normal-*-12-*-*-*-*-*-*-1' -f '-wuncon-siji-medium-r-normal--10-100-75-75-c-80-iso10646-1'
 ```
 
 ##TODO
