@@ -1,63 +1,98 @@
-#Siji
+# Siji
 
-Siji is an iconic Bitmap font based on the excellent Stlarch font and inherits additional glyphs from Sm4tik xbm icon pack, Lokaltog Symbols font, xbm-icon font, Uushi font, FontAwesome, and Tewi font with some personal additions.
+Siji is an iconic bitmap font based on the Stlarch font with additional glyphs.
 
-Siji is built on top of Stlarch, so your existing stlarch hexcodes will **just work**.
+It inherits additional glyphs from Sm4tik xbm icon pack, Lokaltog Symbols font, xbm-icon font, Uushi font, FontAwesome, and Tewi font with personal additions.
+
+Siji is built on top of Stlarch, so your existing stlarch unicode values will **just work**.
 
 Siji is a **Work In Progress**, so more glyphs will be added over the time.
 
 ![Siji](preview.png "Preview of Siji")
 
-##What's the difference between Stlarch and Siji ?
+## What's the difference between Stlarch and Siji ?
 
 - Siji comes with **215 new glyphs**, selectively ported from other fonts and xbm icons with personal additions.
 - Increased letter spacing.
 - Properly centered glyphs.
 
-##How to get the glyph codes ?
+## Installation
 
-Install `xorg-xfd` and then open up a terminal or a program launcher and type:
+Clone this repo:
 
-`xfd -fn -wuncon-siji-medium-r-normal--10-100-75-75-c-80-iso10646-1`
+```
+git clone https://github.com/gstk/siji
+```
+Then `cd` into the siji directory and Run the installer script with `./install.sh`.
 
-There are three pages of glyphs in xfd if you launch it without providing any `rows` or `columns` argument so please don't forget to **Click Next** in xfd for viewing more glyphs.
+By default Siji will be installed in your `$HOME/.fonts` directory, it will be created if the directory is non-existent.
 
-If you would like to view all the glyphs at the same time without having to click next then use the following command:
+If you wish to install Siji in another directory then run the `install.sh` script with the `-d` flag and specify the font directory as an argument.
 
-`xfd -rows 19 -columns 34 -fn -wuncon-siji-medium-r-normal--10-100-75-75-c-80-iso10646-1`
+**Example:**
 
-##Using Siji with other programs:
+```sh
+./install.sh -d ~/.fonts
+```
 
-As long as a program allows to set a fallback font, Siji will work.
+## How to get the glyph codes ?
 
-Examples of using Siji with the some programs:
+Install `xfd`:
+
+**Archlinux**
+```
+sudo pacman -S xorg-xfd
+```
+
+**Debian**
+```
+sudo apt-get install x11-utils
+```
+
+**Fedora**
+```
+sudo dnf install xorg-x11-apps
+```
+
+After installing `xfd` run the `view.sh` script:
+
+```sh
+./view.sh
+```
+
+## Using Siji with other programs:
+
+As long as the program allows to set a fallback font, Siji will work.
+
+Examples of using Siji with some programs:
 
 **Dwm**
 
-```
+```C
 static const char font[] = "-wuncon-siji-medium-r-normal--10-100-75-75-c-80-iso10646-1" ","  /* For Iconic Glyphs */
                            "-*-tamsyn-medium-r-normal-*-12-*-*-*-*-*-*-1";                   /* For Normal Text */
 ```
 
 **Dmenu**
 
-```
+```sh
 dmenu -fn '-*-tamsyn-medium-r-normal-*-12-*-*-*-*-*-*-1','-wuncon-siji-medium-r-normal--10-100-75-75-c-80-iso10646-1'
 ```
 
 **Lemonbar**
 
-```
+```sh
 lemonbar -p -f '-*-tamsyn-medium-r-normal-*-12-*-*-*-*-*-*-1' -f '-wuncon-siji-medium-r-normal--10-100-75-75-c-80-iso10646-1'
 ```
 
-##TODO
+## TODO
 
 - [ ] More Glyphs!
 - [ ] Adding glyphs of different sizes.
 - [ ] Improving glyph alignment.
+- [ ] Creating small and large version of siji.
 
-##Credits
+## Credits
 
 A Big Thanks to the following Authors for their spectacular work which made Siji possible:
 
@@ -77,3 +112,8 @@ A Big Thanks to the following Authors for their spectacular work which made Siji
 
 **Phallus** for Lemon and Uushi font
 
+## License
+
+Siji is licensed under GPLv2.
+
+See `LICENSE` file for copyright details.
