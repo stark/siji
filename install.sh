@@ -123,14 +123,13 @@ copy_pcf()
 
 update_cache()
 {
-	success "Updating font cache..."
+	success "Updating font cache... Please Wait"
 	mkfontdir $font_dir
 	xset +fp $font_dir
 	xset fp rehash
 	fc-cache -f
-	printf " Done"
-	printf "$s_format" "Font cache updated !"
 	success "Finished. Your font cache has been updated"
+
 	# Perform post install stuff
 	post_install
 }
