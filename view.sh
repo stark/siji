@@ -5,7 +5,7 @@ check_xfd()
 	if [ "$(command -v xfd)" ]; then
 		showfont
 	else
-		printf "Application 'xfd' is not installed !"
+		printf "Application 'xfd' is not installed !\n"
 		exit 1
 	fi
 }
