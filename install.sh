@@ -147,7 +147,7 @@ post_install()
 		 	\n\
 		 	\n   ${w}xset +fp ${font_dir}${rs}\
 		 	\n   ${w}xset fp rehash${rs}\
-		 	\n ${rs}\
+		 	\n\
 		 	\nIf it already exists then you can skip this step.\n"
 }
 
