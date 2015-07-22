@@ -11,7 +11,7 @@ Siji is a **Work In Progress**, so more glyphs will be added over the time.
 ![Siji](preview.png "Preview of Siji")
 
 ## What's the difference between Stlarch and Siji ?
-aaa
+
 - Siji comes with **215 new glyphs**, selectively ported from other fonts and xbm icons with personal additions.
 - Increased letter spacing.
 - Properly centered glyphs.
@@ -24,7 +24,7 @@ aaa
 
 #### Others
 
-Clone this repo and `cd` into the siji directory
+Clone this repo and `cd` into the siji directory:
 
 ```sh
 git clone https://github.com/gstk/siji && cd siji
