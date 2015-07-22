@@ -11,19 +11,26 @@ Siji is a **Work In Progress**, so more glyphs will be added over the time.
 ![Siji](preview.png "Preview of Siji")
 
 ## What's the difference between Stlarch and Siji ?
-
+aaa
 - Siji comes with **215 new glyphs**, selectively ported from other fonts and xbm icons with personal additions.
 - Increased letter spacing.
 - Properly centered glyphs.
 
 ## Installation
 
-Clone this repo:
+#### CRUX
 
+[CRUX port](http://crux.z3bra.org/ports/siji-font/) by [z3bra](http://git.z3bra.org/)
+
+#### Others
+
+Clone this repo and `cd` into the siji directory
+
+```sh
+git clone https://github.com/gstk/siji && cd siji
 ```
-git clone https://github.com/gstk/siji
-```
-Then `cd` into the siji directory and Run the installer script with `./install.sh`.
+
+Then run the installer script with `./install.sh`.
 
 By default Siji will be installed in your `$HOME/.fonts` directory, it will be created if the directory is non-existent.
 
@@ -39,17 +46,17 @@ If you wish to install Siji in another directory then run the `install.sh` scrip
 
 Install `xfd`:
 
-**Archlinux**
+#### Archlinux
 ```
 sudo pacman -S xorg-xfd
 ```
 
-**Debian**
+#### Debian
 ```
 sudo apt-get install x11-utils
 ```
 
-**Fedora**
+#### Fedora
 ```
 sudo dnf install xorg-x11-apps
 ```
@@ -66,20 +73,20 @@ As long as the program allows to set a fallback font, Siji will work.
 
 Examples of using Siji with some programs:
 
-**Dwm**
+#### Dwm
 
 ```C
 static const char font[] = "-wuncon-siji-medium-r-normal--10-100-75-75-c-80-iso10646-1" ","  /* For Iconic Glyphs */
                            "-*-tamsyn-medium-r-normal-*-12-*-*-*-*-*-*-1";                   /* For Normal Text */
 ```
 
-**Dmenu**
+#### Dmenu
 
 ```sh
 dmenu -fn '-*-tamsyn-medium-r-normal-*-12-*-*-*-*-*-*-1','-wuncon-siji-medium-r-normal--10-100-75-75-c-80-iso10646-1'
 ```
 
-**Lemonbar**
+#### Lemonbar
 
 ```sh
 lemonbar -p -f '-*-tamsyn-medium-r-normal-*-12-*-*-*-*-*-*-1' -f '-wuncon-siji-medium-r-normal--10-100-75-75-c-80-iso10646-1'
