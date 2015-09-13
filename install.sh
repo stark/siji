@@ -29,9 +29,24 @@ _init_()
 
 usage()
 {
-	printf "  usage: ./install -d /path/to/fontdir\n\
-			\n  Example:\
-			\n  ./install -d ~/.fonts\n"
+cat << HELP
+Usage:
+
+  ./install.sh [option] directory
+
+  If invoked without any option then '$(basename $pcf_font)' will be installed in the '${font_dir}' directory
+
+Options:
+
+  -d   Specify the directory for installing the font
+       Default is '${font_dir}' it will be created if non-existent
+  -h   Show this help message
+
+Example usage:
+
+  ./install -d ~/.fonts
+
+HELP
 }
 
 success()
@@ -79,14 +94,14 @@ check_font()
 	if [ $(command -v bdftopcf) ]; then
 		check_dir
 
-		# If 'bdftopcf' is installed then proceed to compile '$bdffont'
+		# If 'bdftopcf' is installed then proceed to compile '$bdf_font'
 		make_pcf
 	else
 		check_dir
 		warning "Application 'bdftopcf':" "Not Found"
 		success "Installing precompiled" "$(basename $pcf_font)"
 
-		# If 'bdftopcf' is not installed then copy the precompiled '$pcffont'
+		# If 'bdftopcf' is not installed then copy the precompiled '$pcf_font'
 		copy_pcf
 	fi
 }
@@ -95,7 +110,7 @@ make_pcf()
 {
 	if [ -f "$bdf_font" ]; then
 
-		# If it exists then proceed to compile the '$bdffont'
+		# If it exists then proceed to compile the '$bdf_font'
 		success "Compiling" "$(basename $bdf_font)"
 		bdftopcf $bdf_font -o "${font_dir}/$(basename $pcf_font)"
 
@@ -141,14 +156,15 @@ post_install()
 	else 
 		file="custom startup script that gets executed during xlogin"
 	fi
+cat << MSG
+  Successfully installed ${w}$(basename $pcf_font) -> ${font_dir}${rs}
+  Add the following snippet in your ${file}:
 
-	printf "\n\nSuccessfully installed ${w}$(basename $pcf_font) -> ${font_dir}${rs}\
-		 	\n\nAdd the following snippet in your ${file}:\
-		 	\n\
-		 	\n   ${w}xset +fp ${font_dir}${rs}\
-		 	\n   ${w}xset fp rehash${rs}\
-		 	\n\
-		 	\nIf it already exists then you can skip this step.\n"
+    ${w}xset +fp ${font_dir}${rs}
+    ${w}xset fp rehash${rs}
+
+  If it already exists then you can skip this step."
+MSG
 }
 
 error()
@@ -173,4 +189,4 @@ done
 
 _init_
 exit 0
-# vim: ft=sh:ts=4
+# vim: ft=sh ts=4 :et
