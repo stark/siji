@@ -24,7 +24,7 @@ Siji is a **Work In Progress**, so more glyphs will be added over the time.
 
 ### CRUX
 
-[CRUX port](http://crux.z3bra.org/ports/siji-font/) by [z3bra](http://git.z3bra.org/)
+[CRUX port](http://dl.z3bra.org/crux/v3.2/siji-font/) by [z3bra](http://z3bra.org/)
 
 ### Others
 
@@ -77,20 +77,20 @@ As long as the program allows to set a fallback font, Siji will work.
 
 Examples of using Siji with some programs:
 
-#### Dwm
+### Dwm
 
 ```C
 static const char font[] = "-wuncon-siji-medium-r-normal--10-100-75-75-c-80-iso10646-1" ","  /* For Iconic Glyphs */
                            "-*-tamsyn-medium-r-normal-*-12-*-*-*-*-*-*-1";                   /* For Normal Text */
 ```
 
-#### Dmenu
+### Dmenu
 
 ```sh
 dmenu -fn '-*-tamsyn-medium-r-normal-*-12-*-*-*-*-*-*-1','-wuncon-siji-medium-r-normal--10-100-75-75-c-80-iso10646-1'
 ```
 
-#### Lemonbar
+### Lemonbar
 
 ```sh
 lemonbar -p -f '-*-tamsyn-medium-r-normal-*-12-*-*-*-*-*-*-1' -f '-wuncon-siji-medium-r-normal--10-100-75-75-c-80-iso10646-1'
