@@ -31,7 +31,7 @@ Siji is a **Work In Progress**, so more glyphs will be added over the time.
 Clone this repo and `cd` into the siji directory:
 
 ```sh
-git clone https://github.com/gstk/siji && cd siji
+git clone https://github.com/stark/siji && cd siji
 ```
 
 Then run the installer script with `./install.sh`.
