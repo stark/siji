@@ -18,15 +18,15 @@ Siji is a **Work In Progress**, so more glyphs will be added over the time.
 
 ## Installation
 
-#### Arch Linux
+### Arch Linux
 
-[AUR package](https://aur.archlinux.org/packages/siji-git) by [brandon99](https://github.com/brandon099)
+[PKGBUILD](https://aur.archlinux.org/packages/siji-git) by [brandon99](https://github.com/brandon099)
 
-#### CRUX
+### CRUX
 
 [CRUX port](http://crux.z3bra.org/ports/siji-font/) by [z3bra](http://git.z3bra.org/)
 
-#### Others
+### Others
 
 Clone this repo and `cd` into the siji directory:
 
@@ -50,17 +50,17 @@ If you wish to install Siji in another directory then run the `install.sh` scrip
 
 Install `xfd`:
 
-#### Arch Linux
+### Arch Linux
 ```
 sudo pacman -S xorg-xfd
 ```
 
-#### Debian
+### Debian
 ```
 sudo apt-get install x11-utils
 ```
 
-#### Fedora
+### Fedora
 ```
 sudo dnf install xorg-x11-apps
 ```
