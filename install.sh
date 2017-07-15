@@ -156,15 +156,15 @@ post_install()
 	else 
 		file="custom startup script that gets executed during xlogin"
 	fi
-cat << MSG
+printf "
   Successfully installed ${w}$(basename $pcf_font) -> ${font_dir}${rs}
   Add the following snippet in your ${file}:
 
     ${w}xset +fp ${font_dir}${rs}
     ${w}xset fp rehash${rs}
 
-  If it already exists then you can skip this step."
-MSG
+  If it already exists then you can skip this step.
+"
 }
 
 error()
