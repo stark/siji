@@ -8,7 +8,8 @@
 #              Smarter non-zero checking for font existence
 
 # Specify the font directory
-font_dir="$HOME/.fonts"
+XDG_DATA_HOME=${XDG_DATA_HOME:-"$HOME/.local/share"}
+font_dir="$XDG_DATA_HOME/fonts"
 
 # Specify the font
 font="siji"
