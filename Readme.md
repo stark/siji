@@ -71,6 +71,12 @@ After installing `xfd` run the `view.sh` script:
 ./view.sh
 ```
 
+alternatively, run:
+
+```sh
+xfd -rows '19' -columns '34' -fn '-wuncon-siji-medium-r-normal--10-100-75-75-c-80-iso10646-1'
+```
+
 ## Using Siji with other programs:
 
 As long as the program allows to set a fallback font, Siji will work.
