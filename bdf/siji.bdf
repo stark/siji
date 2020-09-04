@@ -26,10 +26,10 @@ QUAD_WIDTH 8
 DEFAULT_CHAR 0
 FONT_DESCENT 2
 FONT_ASCENT 8
-COMMENT """"""""""""""""""""""Procon - An Iconic Font based on Stlarch font, Sm4tik's xbm pack, FontAwesome and Lokaltog Symbol Font""""""""""""""""""""""
-COMMENT ""Siji font - an iconic bitmap font based on Stlarch by Stark""
+COMMENT """"""""""""""""""""""""Procon - An Iconic Font based on Stlarch font, Sm4tik's xbm pack, FontAwesome and Lokaltog Symbol Font""""""""""""""""""""""""
+COMMENT """"Siji font - an iconic bitmap font based on Stlarch by Stark""""
 ENDPROPERTIES
-CHARS 631
+CHARS 632
 STARTCHAR U+E000
 ENCODING 57344
 SWIDTH 1152 0
@@ -12017,6 +12017,25 @@ BITMAP
 3400
 1000
 0000
+0000
+ENDCHAR
+STARTCHAR char57975
+ENCODING 57975
+SWIDTH 1152 0
+DWIDTH 12 0
+BBX 12 12 0 -2
+BITMAP
+0000
+0200
+0F00
+3F00
+7FA0
+0030
+FFE0
+EFE0
+FFC0
+7F80
+3E00
 0000
 ENDCHAR
 ENDFONT
