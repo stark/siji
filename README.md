@@ -9,19 +9,33 @@ Neosiji is a fixed and maintained [Siji](https://github.com/stark/siji).
 ## Differences from Siji:
 - Build **correct** OTB font => support in modern apps
 - New repository structure, new build system, releases => easier to package
-- *More coming soon*
+- *More hopefully coming soon*
 
 ## Installation
 
-It may be already used as upstream in your distro's Siji package. Otherwise, install it manually or package it.
-
-### Manual
-
 #### Requirements:
+- python3
 - bdftopcf
 
 ```sh
 git clone https://github.com/begss/neosiji && cd neosiji && make install
+```
+
+## How to get all glyphs
+
+```sh
+#!/bin/sh
+
+codes="0 1 2 3 4 5 6 7 8 9 a b c d e f"
+
+for code0 in $codes; do
+	for code1 in $codes; do
+		for code2 in $codes; do
+			/usr/bin/printf "%s - \ue$code0$code1$code2\n" \
+			e$code0$code1$code2
+		done
+	done
+done
 ```
 
 ## TODO
