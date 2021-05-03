@@ -1,11 +1,11 @@
 STARTFONT 2.1
-FONT -Wuncon-Doko-Medium-R-Normal--10-100-75-75-C-80-ISO10646-1
+FONT -Wuncon-Siji-Medium-R-Normal--10-100-75-75-C-80-ISO10646-1
 SIZE 10 75 75
 FONTBOUNDINGBOX 12 12 0 -2
 STARTPROPERTIES 23
 FONTNAME_REGISTRY ""
 FOUNDRY "Wuncon"
-FAMILY_NAME "Doko"
+FAMILY_NAME "Siji"
 WEIGHT_NAME "Medium"
 SLANT "R"
 SETWIDTH_NAME "Normal"
@@ -26,8 +26,8 @@ QUAD_WIDTH 8
 DEFAULT_CHAR 0
 FONT_DESCENT 2
 FONT_ASCENT 8
-COMMENT """"""""""""""""""""""Doko - An Iconic Font based on Stlarch font, Sm4tik's xbm pack, FontAwesome and Lokaltog Symbol Font""""""""""""""""""""""
-COMMENT ""Doko font - an iconic bitmap font based on Siji""
+COMMENT """"""""""""""""""""""Neosiji - An Iconic Font based on Siji""""""""""""""""""""""
+COMMENT ""Neosiji font - an iconic bitmap font based on Siji""
 ENDPROPERTIES
 CHARS 631
 STARTCHAR U+E000

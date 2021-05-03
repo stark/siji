@@ -1,17 +1,17 @@
 prefix = ~/.local
-x11dir = $(prefix)/share/fonts/doko
-otbdir = $(prefix)/share/fonts/doko
+x11dir = $(prefix)/share/fonts/siji
+otbdir = $(prefix)/share/fonts/siji
 
 install: pcf otb
 	mkdir -p $(x11dir) $(otbdir)
-	cp doko.pcf $(x11dir)
-	cp doko.otb $(otbdir)
+	cp siji.pcf $(x11dir)
+	cp siji.otb $(otbdir)
 
-pcf: doko.bdf
-	bdftopcf doko.bdf -o doko.pcf
+pcf: siji.bdf
+	bdftopcf siji.bdf -o siji.pcf
 
-otb: doko.bdf
-	python3 bin/otb1cli.py -o doko.otb doko.bdf
+otb: siji.bdf
+	python3 bin/otb1cli.py -o siji.otb siji.bdf
 
 clean:
-	rm doko.otb doko.pcf
+	rm siji.otb siji.pcf

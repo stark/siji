@@ -1,10 +1,10 @@
-# Doko
+# Neosiji
 
-Doko is a fixed and maintained [Siji](https://github.com/stark/siji).
+Neosiji is a fixed and maintained [Siji](https://github.com/stark/siji).
 
 **Contributions are welcome**
 
-![doko](preview.png "preview of doko")
+![Neosiji](preview.png "Preview of Siji")
 
 ## Differences from Siji:
 - Build **correct** OTB font => support in modern apps
@@ -13,7 +13,7 @@ Doko is a fixed and maintained [Siji](https://github.com/stark/siji).
 
 ## Installation
 
-[![Packaging status](https://repology.org/badge/vertical-allrepos/fonts:doko.svg)](https://repology.org/project/fonts:doko/versions)
+It may be already used as upstream in your distro's Siji package. Otherwise, install it manually or package it.
 
 ### Manual
 
@@ -21,7 +21,7 @@ Doko is a fixed and maintained [Siji](https://github.com/stark/siji).
 - bdftopcf
 
 ```sh
-git clone https://github.com/begss/doko && cd doko && make install
+git clone https://github.com/begss/neosiji && cd neosiji && make install
 ```
 
 ## TODO
@@ -29,11 +29,11 @@ git clone https://github.com/begss/doko && cd doko && make install
 - [ ] More Glyphs!
 - [ ] Adding glyphs of different sizes.
 - [ ] Improving glyph alignment.
-- [ ] Creating small and large version of doko.
+- [ ] Creating small and large version of Siji.
 
 ## Credits
 
-**[stark](https://github.com/stark) for [Siji](https://github.com/stark/siji)**
+[**stark**](https://github.com/stark) for [Siji](https://github.com/stark/siji)
 
 **Dimitar Zhekov** for bdf to otb convertation scripts
 
