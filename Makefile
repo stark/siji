@@ -2,6 +2,8 @@ prefix = ~/.local
 x11dir = $(prefix)/share/fonts/siji
 otbdir = $(prefix)/share/fonts/siji
 
+build: pcf otb
+
 install: pcf otb
 	mkdir -p $(x11dir) $(otbdir)
 	cp siji.pcf $(x11dir)
