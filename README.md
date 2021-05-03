@@ -35,6 +35,8 @@ git clone https://github.com/begss/doko && cd doko && make install
 
 **[stark](https://github.com/stark) for [Siji](https://github.com/stark/siji)**
 
+**Dimitar Zhekov** for bdf to otb convertation scripts
+
 **Sm4tik** for sm4tik xbm icon pack
 
 **Stlarch** for stlarch font
