@@ -7,7 +7,7 @@ Doko is a fixed and maintained [Siji](https://github.com/stark/siji).
 ![doko](preview.png "preview of doko")
 
 ## Differences from Siji:
-- Build OTB font => support in modern apps
+- Build **correct** OTB font => support in modern apps
 - New repository structure, new build system, releases => easier to package
 - *More coming soon*
 
@@ -19,7 +19,6 @@ Doko is a fixed and maintained [Siji](https://github.com/stark/siji).
 
 #### Requirements:
 - bdftopcf
-- fonttosfnt
 
 ```sh
 git clone https://github.com/begss/doko && cd doko && make install

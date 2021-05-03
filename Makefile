@@ -11,4 +11,7 @@ pcf: doko.bdf
 	bdftopcf doko.bdf -o doko.pcf
 
 otb: doko.bdf
-	fonttosfnt -g 2 -m 2 -o doko.otb -- doko.bdf
+	python3 bin/otb1cli.py -o doko.otb doko.bdf
+
+clean:
+	rm doko.otb doko.pcf
