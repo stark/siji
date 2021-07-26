@@ -7,9 +7,10 @@ A fixed and maintained [Siji](https://github.com/stark/siji) iconic bitmap font.
 ![Siji-ng](preview.png "Preview of Siji")
 
 ## Differences from Siji:
-- Build **correct** OTB font => support in modern apps
-- New repository structure, new build system, releases => easier to package
-- *More hopefully coming soon*
+- Build **correct** OTB font => support in modern apps.
+- New icons: DWM centeredmaster/centeredfloatingmaster, Gentoo.
+- New repository structure, new build system, releases => easier to package.
+- *More hopefully coming soon.*
 
 ## Installation
 
@@ -47,22 +48,25 @@ done
 
 ## Credits
 
-[**stark**](https://github.com/stark) for [Siji](https://github.com/stark/siji)
+[**stark**](https://github.com/stark) for [Siji](https://github.com/stark/siji).
 
-**Dimitar Zhekov** for bdf to otb convertation scripts
+[**wrkzk**](https://github.com/wrkzk) for `dwm_centeredmaster`,
+`dwm_centeredfloatingmaster` and `gentoo` icons.
 
-**Sm4tik** for sm4tik xbm icon pack
+**Dimitar Zhekov** for bdf to otb convertation scripts.
 
-**Stlarch** for stlarch font
+**Sm4tik** for sm4tik xbm icon pack.
 
-**Sunaku** for sm4tik font
+**Stlarch** for stlarch font.
 
-**Lokaltog** for symbols font
+**Sunaku** for sm4tik font.
 
-**w0ng** for xbm icon font
+**Lokaltog** for symbols font.
 
-**Dave Gandy** for FontAwesome
+**w0ng** for xbm icon font.
 
-**Lucy** for Tewi font
+**Dave Gandy** for FontAwesome.
 
-**Phallus** for Lemon and Uushi font
+**Lucy** for Tewi font.
+
+**Phallus** for Lemon and Uushi font.
