@@ -1,10 +1,10 @@
-# Neosiji
+# Siji-ng
 
-Neosiji is a fixed and maintained [Siji](https://github.com/stark/siji).
+A fixed and maintained [Siji](https://github.com/stark/siji) iconic bitmap font.
 
 **Contributions are welcome**
 
-![Neosiji](preview.png "Preview of Siji")
+![Siji-ng](preview.png "Preview of Siji")
 
 ## Differences from Siji:
 - Build **correct** OTB font => support in modern apps
@@ -18,7 +18,7 @@ Neosiji is a fixed and maintained [Siji](https://github.com/stark/siji).
 - bdftopcf
 
 ```sh
-git clone https://github.com/begss/neosiji && cd neosiji && make install
+git clone https://github.com/begss/siji-ng && cd siji-ng && make install
 ```
 
 ## How to get all glyphs

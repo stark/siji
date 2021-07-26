@@ -26,8 +26,8 @@ QUAD_WIDTH 8
 DEFAULT_CHAR 0
 FONT_DESCENT 2
 FONT_ASCENT 8
-COMMENT """"""""""""""""""""""Neosiji - An Iconic Font based on Siji""""""""""""""""""""""
-COMMENT ""Neosiji font - an iconic bitmap font based on Siji""
+COMMENT """"""""""""""""""""""Siji-ng - An Iconic Font based on Siji""""""""""""""""""""""
+COMMENT ""Siji-ng font - an iconic bitmap font based on Siji""
 ENDPROPERTIES
 CHARS 631
 STARTCHAR U+E000
