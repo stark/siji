@@ -8,7 +8,8 @@ A fixed and maintained [Siji](https://github.com/stark/siji) iconic bitmap font.
 
 ## Differences from Siji:
 - Build **correct** OTB font => support in modern apps.
-- New icons: DWM centeredmaster/centeredfloatingmaster, Gentoo.
+- New icons: `dwm_centeredmaster`, `dwm_centeredfloatingmaster`, `gentoo`,
+  `docker`.
 - New repository structure, new build system, releases => easier to package.
 - *More hopefully coming soon.*
 
@@ -52,6 +53,8 @@ done
 
 [**wrkzk**](https://github.com/wrkzk) for `dwm_centeredmaster`,
 `dwm_centeredfloatingmaster` and `gentoo` icons.
+
+[**the-papi**](https://github.com/the-papi) for `docker` icon.
 
 **Dimitar Zhekov** for bdf to otb convertation scripts.
 
