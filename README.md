@@ -25,16 +25,15 @@ git clone https://github.com/begss/siji-ng && cd siji-ng && make install
 
 ## How to get all glyphs
 
-```sh
-#!/bin/sh
+```bash
+#!/bin/bash
 
 codes="0 1 2 3 4 5 6 7 8 9 a b c d e f"
 
 for code0 in $codes; do
 	for code1 in $codes; do
 		for code2 in $codes; do
-			/usr/bin/printf "%s - \ue$code0$code1$code2\n" \
-			e$code0$code1$code2
+			printf "e$code0$code1$code2 - \ue$code0$code1$code2\n"
 		done
 	done
 done
