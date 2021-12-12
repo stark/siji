@@ -15,6 +15,10 @@ A fixed and maintained [Siji](https://github.com/stark/siji) iconic bitmap font.
 
 ## Installation
 
+[![Packaging status](
+https://repology.org/badge/vertical-allrepos/siji-ng.svg)](
+https://repology.org/project/siji-ng/versions)
+
 #### Requirements:
 - python3
 - bdftopcf
