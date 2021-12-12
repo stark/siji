@@ -1,13 +1,13 @@
-prefix = ~/.local
-x11dir = $(prefix)/share/fonts/siji
-otbdir = $(prefix)/share/fonts/siji
+DESTDIR = ~
+PREFIX	= /.local
+X11DIR	= $(DESTDIR)$(PREFIX)/share/fonts/misc
+OTBDIR	= $(DESTDIR)$(PREFIX)/share/fonts/misc
 
 build: pcf otb
 
-install: pcf otb
-	mkdir -p $(x11dir) $(otbdir)
-	cp siji.pcf $(x11dir)
-	cp siji.otb $(otbdir)
+install: build
+	install -Dm644 siji.pcf $(X11DIR)/siji.pcf
+	install -Dm644 siji.otb $(OTBDIR)/siji.otb
 
 pcf: siji.bdf
 	bdftopcf siji.bdf -o siji.pcf
