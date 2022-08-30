@@ -1,7 +1,8 @@
 DESTDIR = ~
 PREFIX	= /.local
-X11DIR	= $(DESTDIR)$(PREFIX)/share/fonts/misc
-OTBDIR	= $(DESTDIR)$(PREFIX)/share/fonts/misc
+NAME	= siji
+X11DIR	= $(DESTDIR)$(PREFIX)/share/fonts/$(NAME)
+OTBDIR	= $(DESTDIR)$(PREFIX)/share/fonts/$(NAME)
 
 build: pcf otb
 
